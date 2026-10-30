@@ -1,0 +1,248 @@
+{
+  "code/evaluation/main.py": {
+    "mtime": 1792859411.996785,
+    "seen": 1792863547.32734,
+    "ast_hash": "f15dc9add32d199df081e4f5471de4b1",
+    "semantic_hash": ""
+  },
+  "code/main.py": {
+    "mtime": 1792855604.8373268,
+    "seen": 1792863547.32734,
+    "ast_hash": "45eb730cc622ab7a94b8f68b9bc3c290",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1792853449.6753879,
+    "seen": 1792863547.32734,
+    "ast_hash": "cbb108472a33941f80f02c3282202457",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1792850987.5204425,
+    "seen": 1792853155.6866033,
+    "ast_hash": "771faa62feb60b7de901a397aebb29b0",
+    "semantic_hash": "771faa62feb60b7de901a397aebb29b0"
+  },
+  "README.md": {
+    "mtime": 1792850987.528037,
+    "seen": 1792853155.6866033,
+    "ast_hash": "23a34181b09d91fe6ae939b9f7589604",
+    "semantic_hash": "23a34181b09d91fe6ae939b9f7589604"
+  },
+  "agent_trace_instructions.md": {
+    "mtime": 1792850987.5373814,
+    "seen": 1792853155.6866033,
+    "ast_hash": "57c421d3384047270268ef0b097cfe72",
+    "semantic_hash": "57c421d3384047270268ef0b097cfe72"
+  },
+  "problem_statement.md": {
+    "mtime": 1792850988.6841934,
+    "seen": 1792853155.6866033,
+    "ast_hash": "5c4d2dbd36f2aa4cad23c7078177a2a2",
+    "semantic_hash": "5c4d2dbd36f2aa4cad23c7078177a2a2"
+  },
+  "code/evaluation/custom_cases.py": {
+    "mtime": 1792859067.7121327,
+    "seen": 1792863547.32734,
+    "ast_hash": "a76463e035a9d303455e6e8ff37d4672",
+    "semantic_hash": ""
+  },
+  "code/evaluation/usage.py": {
+    "mtime": 1792859609.8095374,
+    "seen": 1792863547.32734,
+    "ast_hash": "d8f3867f3fadaccb3179f4ea4809379a",
+    "semantic_hash": ""
+  },
+  "code/exorcist/__init__.py": {
+    "mtime": 1792854009.4475534,
+    "seen": 1792863547.32734,
+    "ast_hash": "ed1dedac880c6f62975b11c99452cc14",
+    "semantic_hash": ""
+  },
+  "code/exorcist/auditor.py": {
+    "mtime": 1792863204.0265436,
+    "seen": 1792863547.32734,
+    "ast_hash": "259baea143dece586d341a82cd5c4aca",
+    "semantic_hash": ""
+  },
+  "code/exorcist/config.py": {
+    "mtime": 1792859172.5172803,
+    "seen": 1792863547.32734,
+    "ast_hash": "14580f41235084dea804e26bc151ebfa",
+    "semantic_hash": ""
+  },
+  "code/exorcist/discovery.py": {
+    "mtime": 1792859175.9487736,
+    "seen": 1792863547.32734,
+    "ast_hash": "bea5655f200d126e8b7c3b66e922d294",
+    "semantic_hash": ""
+  },
+  "code/exorcist/identity.py": {
+    "mtime": 1792859174.2446904,
+    "seen": 1792863547.32734,
+    "ast_hash": "8210b54eec6f89e0d92f26433aaeaed6",
+    "semantic_hash": ""
+  },
+  "code/exorcist/ids.py": {
+    "mtime": 1792853912.417724,
+    "seen": 1792863547.32734,
+    "ast_hash": "449eb5786fbf52a548969d2092a60764",
+    "semantic_hash": ""
+  },
+  "code/exorcist/intent.py": {
+    "mtime": 1792855740.724727,
+    "seen": 1792863547.32734,
+    "ast_hash": "a04143feac47a4cb278206940632686f",
+    "semantic_hash": ""
+  },
+  "code/exorcist/llm.py": {
+    "mtime": 1792859629.3400493,
+    "seen": 1792863547.32734,
+    "ast_hash": "419c044a0d29095ee86a2366e62f02de",
+    "semantic_hash": ""
+  },
+  "code/exorcist/loaders/__init__.py": {
+    "mtime": 1792859182.25096,
+    "seen": 1792863547.32734,
+    "ast_hash": "346f02bf15e4ba2565ece3745539976a",
+    "semantic_hash": ""
+  },
+  "code/exorcist/loaders/activity.py": {
+    "mtime": 1792854075.364697,
+    "seen": 1792863547.32734,
+    "ast_hash": "d7819aede998ba1db27158fedd9c3c52",
+    "semantic_hash": ""
+  },
+  "code/exorcist/loaders/images.py": {
+    "mtime": 1792863151.8439465,
+    "seen": 1792863547.32734,
+    "ast_hash": "23085c379d8141c14f215d42ed498c86",
+    "semantic_hash": ""
+  },
+  "code/exorcist/loaders/json_.py": {
+    "mtime": 1792854874.6759324,
+    "seen": 1792863547.32734,
+    "ast_hash": "48e8110a70d2dd2aae8973e19783c720",
+    "semantic_hash": ""
+  },
+  "code/exorcist/loaders/logs.py": {
+    "mtime": 1792854510.8381903,
+    "seen": 1792863547.32734,
+    "ast_hash": "ee3ab8ebe4e17166694a2dbf93cb46f3",
+    "semantic_hash": ""
+  },
+  "code/exorcist/loaders/pdf.py": {
+    "mtime": 1792854526.1379688,
+    "seen": 1792863547.32734,
+    "ast_hash": "a8d4e6d4d01ee1c733c58fbff86482fe",
+    "semantic_hash": ""
+  },
+  "code/exorcist/loaders/sql.py": {
+    "mtime": 1792859180.5278354,
+    "seen": 1792863547.32734,
+    "ast_hash": "682f57aed3949058639920d35212b7c2",
+    "semantic_hash": ""
+  },
+  "code/exorcist/loaders/text.py": {
+    "mtime": 1792853980.6791492,
+    "seen": 1792863547.32734,
+    "ast_hash": "8543d697bb1fab03ee5143bfa58784e5",
+    "semantic_hash": ""
+  },
+  "code/exorcist/matcher.py": {
+    "mtime": 1792854566.8107028,
+    "seen": 1792863547.32734,
+    "ast_hash": "5ec87fd87d429a4a328a225cc5c07e23",
+    "semantic_hash": ""
+  },
+  "code/exorcist/model.py": {
+    "mtime": 1792854873.810521,
+    "seen": 1792863547.32734,
+    "ast_hash": "f5c64583fce2ad7a4b2618f1f7f4170a",
+    "semantic_hash": ""
+  },
+  "code/exorcist/planner.py": {
+    "mtime": 1792863186.1907086,
+    "seen": 1792863547.32734,
+    "ast_hash": "eb7d05f63df9d1f1b9c344363fd0394d",
+    "semantic_hash": ""
+  },
+  "code/exorcist/policy.py": {
+    "mtime": 1792854810.819159,
+    "seen": 1792863547.32734,
+    "ast_hash": "0a3ebc4dad1ebdd4ba3ef7973e820246",
+    "semantic_hash": ""
+  },
+  "code/exorcist/state.py": {
+    "mtime": 1792863183.3603892,
+    "seen": 1792863547.32734,
+    "ast_hash": "d189dd90698cf389f7e74b4f6c906bf4",
+    "semantic_hash": ""
+  },
+  "code/exorcist/store.py": {
+    "mtime": 1792854893.7951334,
+    "seen": 1792863547.32734,
+    "ast_hash": "badc112905e1850c5e2910103fe138d4",
+    "semantic_hash": ""
+  },
+  "code/tests/test_core.py": {
+    "mtime": 1792854953.441455,
+    "seen": 1792863547.32734,
+    "ast_hash": "d78958c1d70ea248667af7a87f2f15b5",
+    "semantic_hash": ""
+  },
+  "code/tests/test_loaders.py": {
+    "mtime": 1792858714.3194087,
+    "seen": 1792863547.32734,
+    "ast_hash": "f58cd6da5a1422311b930f7900de0c32",
+    "semantic_hash": ""
+  },
+  "code/tests/test_planner.py": {
+    "mtime": 1792855885.481294,
+    "seen": 1792863547.32734,
+    "ast_hash": "d86b936adba7803112515e4f220bf577",
+    "semantic_hash": ""
+  },
+  "code/README.md": {
+    "mtime": 1792863289.1544642,
+    "seen": 1792863547.32734,
+    "ast_hash": "9179cb3812dcc4bcaface8e175283299",
+    "semantic_hash": ""
+  },
+  "code/evaluation/evaluation_report.md": {
+    "mtime": 1792863474.7726896,
+    "seen": 1792863547.32734,
+    "ast_hash": "ad8c5a685f0d13af7c430ed790b40714",
+    "semantic_hash": ""
+  },
+  "code/evaluation/usage_report.md": {
+    "mtime": 1792863476.7899692,
+    "seen": 1792863547.32734,
+    "ast_hash": "5bf7ba8f7c5d669da4caf8b39a895648",
+    "semantic_hash": ""
+  },
+  "code/requirements.txt": {
+    "mtime": 1792854216.3891892,
+    "seen": 1792863547.32734,
+    "ast_hash": "45b00e0115d3c90517f4e6e8ae6dad41",
+    "semantic_hash": ""
+  },
+  "design_doc.md": {
+    "mtime": 1792859956.0023253,
+    "seen": 1792863547.32734,
+    "ast_hash": "2c01fa0dddf13b23f72567612630b0a7",
+    "semantic_hash": ""
+  },
+  "roadmap.md": {
+    "mtime": 1792859955.9731526,
+    "seen": 1792863547.32734,
+    "ast_hash": "64d029276c411c6ee9ad99c27587bb81",
+    "semantic_hash": ""
+  },
+  "system.md": {
+    "mtime": 1792859955.9867885,
+    "seen": 1792863547.32734,
+    "ast_hash": "4e0ef97422069511567da202b87de19a",
+    "semantic_hash": ""
+  }
+}

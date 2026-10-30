@@ -1,0 +1,6 @@
+dataset/
+graphify-out/
+log.txt
+code/cache/
+code.zip
+output*.csv

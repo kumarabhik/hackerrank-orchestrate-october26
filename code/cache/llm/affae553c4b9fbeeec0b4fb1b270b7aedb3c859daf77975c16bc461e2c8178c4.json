@@ -1,0 +1,17 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "purpose": "intent-audit",
+ "content": "{\"results\":[{\"i\":0,\"authorizes_deletion\":true},{\"i\":1,\"authorizes_deletion\":true},{\"i\":2,\"authorizes_deletion\":true},{\"i\":3,\"authorizes_deletion\":true},{\"i\":4,\"authorizes_deletion\":true},{\"i\":5,\"authorizes_deletion\":true},{\"i\":6,\"authorizes_deletion\":true},{\"i\":7,\"authorizes_deletion\":true},{\"i\":8,\"authorizes_deletion\":true},{\"i\":9,\"authorizes_deletion\":true},{\"i\":10,\"authorizes_deletion\":true},{\"i\":11,\"authorizes_deletion\":true},{\"i\":12,\"authorizes_deletion\":true},{\"i\":13,\"authorizes_deletion\":true},{\"i\":14,\"authorizes_deletion\":true},{\"i\":15,\"authorizes_deletion\":true},{\"i\":16,\"authorizes_deletion\":true},{\"i\":17,\"authorizes_deletion\":true},{\"i\":18,\"authorizes_deletion\":true},{\"i\":19,\"authorizes_deletion\":true},{\"i\":20,\"authorizes_deletion\":true},{\"i\":21,\"authorizes_deletion\":true},{\"i\":22,\"authorizes_deletion\":true},{\"i\":23,\"authorizes_deletion\":true},{\"i\":24,\"authorizes_deletion\":true}]}",
+ "usage": {
+  "queue_time": 0.211193015,
+  "prompt_tokens": 1102,
+  "prompt_time": 0.064435063,
+  "completion_tokens": 359,
+  "completion_time": 0.410687604,
+  "total_tokens": 1461,
+  "total_time": 0.475122667,
+  "completion_tokens_details": {
+   "reasoning_tokens": 70
+  }
+ }
+}

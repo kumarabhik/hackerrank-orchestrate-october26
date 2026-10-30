@@ -1,0 +1,24 @@
+# Private interview prep — never commit or zip
+question.md
+
+# Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Generated / local
+code/cache/usage.jsonl
+graphify-out/cache/
+code.zip
+agent-trace/
+agent-trace.zip
+output_v*.csv
+code/cache/*.csv
+code/cache/intent_audit.json
+code/cache/compiled/

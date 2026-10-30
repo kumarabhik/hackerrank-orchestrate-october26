@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "purpose": "vision:connector_management_console_20260807.png",
+ "content": "{\n  \"screen\": \"BridgeOps Connections\",\n  \"as_of\": \"07 Aug 2026 08:00 UTC\",\n  \"subject\": {\n    \"user_id\": null,\n    \"name\": null,\n    \"email\": null,\n    \"phone\": null\n  },\n  \"records\": [\n    {\n      \"resource_id\": \"data_flow_1121\",\n      \"system\": \"BridgeOps\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"jain.aditi@gmail.com\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Healthy\",\n      \"enabled\": true,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Connector to customer_analytics_warehouse. Continuous sync mode. Last response 200 OK · 1.8 s. 1,284 events/hour.\"\n    },\n    {\n      \"resource_id\": \"data_flow_9846\",\n      \"system\": \"BridgeOps\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"lucia-torres@gmail.com\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Healthy\",\n      \"enabled\": true,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Connector to customer_analytics_warehouse. Continuous sync mode. 842 events/hour.\"\n    },\n    {\n      \"resource_id\": null,\n      \"system\": \"BridgeOps\",\n      \"user_id\": null,\n      \"name\": \"Order notifications\",\n      \"email\": null,\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Healthy\",\n      \"enabled\": true,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Connector to notification_service. Continuous sync mode. 650 events/hour.\"\n    },\n    {\n      \"resource_id\": null,\n      \"system\": \"BridgeOps\",\n      \"user_id\": null,\n      \"name\": \"Delivery tracking\",\n      \"email\": null,\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Healthy\",\n      \"enabled\": true,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Connector to logistics_warehouse. Continuous sync mode. 420 events/hour.\"\n    }\n  ]\n}",
+ "usage": {
+  "queue_time": 0.207959897,
+  "prompt_tokens": 2200,
+  "prompt_time": 0.155923508,
+  "completion_tokens": 602,
+  "completion_time": 1.189074205,
+  "total_tokens": 2802,
+  "total_time": 1.344997713
+ }
+}

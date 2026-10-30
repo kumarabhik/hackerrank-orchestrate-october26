@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "purpose": "vision:support_ticket_console_20260524.png",
+ "content": "{\n  \"screen\": \"Helpine Console / Inbox\",\n  \"as_of\": \"2026.10.4\",\n  \"subject\": {\n    \"user_id\": null,\n    \"name\": \"Kofi Agyeman\",\n    \"email\": \"kagyeman8847@fastmail.com\",\n    \"phone\": null\n  },\n  \"records\": [\n    {\n      \"resource_id\": \"support_1034\",\n      \"system\": \"Helpine Console\",\n      \"user_id\": null,\n      \"name\": \"Kofi Agyeman\",\n      \"email\": \"kagyeman8847@fastmail.com\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Normal priority\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": true,\n      \"detail\": \"Ticket CS-5034: Where is my delivery? Assigned to Maya Chen. Tags: Delivery, Tracking, Order update.\"\n    },\n    {\n      \"resource_id\": \"ORD-20265034\",\n      \"system\": null,\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": null,\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"In transit\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": false,\n      \"detail\": \"Order for Running shoes. Carrier: SwiftShip. Tracking: SWF-884103. Expected: 26 May 2026.\"\n    }\n  ]\n}",
+ "usage": {
+  "queue_time": 0.179742341,
+  "prompt_tokens": 2200,
+  "prompt_time": 0.154400125,
+  "completion_tokens": 390,
+  "completion_time": 0.740754848,
+  "total_tokens": 2590,
+  "total_time": 0.895154973
+ }
+}

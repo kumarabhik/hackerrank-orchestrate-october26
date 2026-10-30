@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "purpose": "vision:marketing_profile_console.png",
+ "content": "{\n  \"screen\": \"Northstar Shop / Audience Operations\",\n  \"as_of\": \"15 Sep 2026 23:40 UTC\",\n  \"subject\": {\n    \"user_id\": \"marketing_001\",\n    \"name\": \"Soo-jin Park\",\n    \"email\": \"sj.park@naver.com\",\n    \"phone\": \"+82-10-5837-9451\"\n  },\n  \"records\": [\n    {\n      \"resource_id\": \"marketing_001\",\n      \"system\": \"Audience Operations\",\n      \"user_id\": \"marketing_001\",\n      \"name\": \"Soo-jin Park\",\n      \"email\": \"sj.park@naver.com\",\n      \"phone\": \"+82-10-5837-9451\",\n      \"email_hash\": null,\n      \"status\": \"Live\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": true,\n      \"detail\": \"Primary customer record. Market: South Korea. Language: Korean. Email opt-in: Yes. SMS opt-in: No. Last refreshed: 15 Sep 2026 23:40 UTC.\"\n    }\n  ]\n}",
+ "usage": {
+  "queue_time": 0.165975938,
+  "prompt_tokens": 2200,
+  "prompt_time": 0.157628908,
+  "completion_tokens": 303,
+  "completion_time": 0.579438233,
+  "total_tokens": 2503,
+  "total_time": 0.737067141
+ }
+}

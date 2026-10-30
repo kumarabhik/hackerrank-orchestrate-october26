@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "purpose": "vision:search_index_inspector_20260901.png",
+ "content": "{\n  \"screen\": \"Northstar Shop / Search Console / Customer Search\",\n  \"as_of\": \"01 Sep 2026 06:00:14 UTC\",\n  \"subject\": {\n    \"user_id\": \"user_13\",\n    \"name\": \"Gabriel Silva\",\n    \"email\": \"g.silva76@gmail.com\",\n    \"phone\": null\n  },\n  \"records\": [\n    {\n      \"resource_id\": \"search_428\",\n      \"system\": \"customer_directory_v3\",\n      \"user_id\": \"user_13\",\n      \"name\": \"Gabriel Silva\",\n      \"email\": \"g.silva76@gmail.com\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Indexed\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": true,\n      \"detail\": \"Search result record. Score: 9.84. Last indexed: 05:58:21 UTC.\"\n    },\n    {\n      \"resource_id\": \"search_1874\",\n      \"system\": \"customer_directory_v3\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"g.silva76@gmail.com\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Indexed\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": true,\n      \"detail\": \"Search result record. Score: 4.12. Last indexed: 05:55:03 UTC.\"\n    }\n  ]\n}",
+ "usage": {
+  "queue_time": 0.317510324,
+  "prompt_tokens": 2200,
+  "prompt_time": 0.156880399,
+  "completion_tokens": 398,
+  "completion_time": 0.755026099,
+  "total_tokens": 2598,
+  "total_time": 0.911906498
+ }
+}

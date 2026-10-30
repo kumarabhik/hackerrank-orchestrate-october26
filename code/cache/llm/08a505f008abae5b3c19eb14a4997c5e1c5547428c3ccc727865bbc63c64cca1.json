@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "purpose": "vision:analytics_profile_view_20260713.png",
+ "content": "{\n  \"screen\": \"Pulse Analytics / Users\",\n  \"as_of\": \"13 Jul 2026 14:22 UTC\",\n  \"subject\": {\n    \"user_id\": \"user_20\",\n    \"name\": \"Omar Darwish\",\n    \"email\": \"darwish.omar@icloud.com\",\n    \"phone\": null\n  },\n  \"records\": [\n    {\n      \"resource_id\": \"analytics_7438\",\n      \"system\": \"Pulse Analytics\",\n      \"user_id\": \"user_20\",\n      \"name\": \"Omar Darwish\",\n      \"email\": \"darwish.omar@icloud.com\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Last 90 days\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": true,\n      \"detail\": \"User profile record. Market: AE, Audience: Returning shopper, Interest: Coffee & dining. First seen: 21 Apr 2026 09:14 UTC. Last activity: 13 Jul 2026 14:22 UTC.\"\n    }\n  ]\n}",
+ "usage": {
+  "queue_time": 0.212781452,
+  "prompt_tokens": 2200,
+  "prompt_time": 0.162080853,
+  "completion_tokens": 290,
+  "completion_time": 0.549600405,
+  "total_tokens": 2490,
+  "total_time": 0.711681258
+ }
+}

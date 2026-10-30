@@ -1,0 +1,2 @@
+pypdf==6.12.2   # PDF text extraction (evidence/documents)
+pytest==8.3.3   # unit tests (dev only)

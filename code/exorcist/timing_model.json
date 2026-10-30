@@ -1,0 +1,49 @@
+{
+ "_prior": {
+  "mu": 0.11190243902439025,
+  "sigma": 0.9094383365807885,
+  "n": 82,
+  "K": 3.0
+ },
+ "_provenance": "fit_timing.py on sample_output.csv + system_activity.csv (public samples)",
+ "account_service": {
+  "mu": -0.6678,
+  "sigma": 0.5093,
+  "n": 30
+ },
+ "analytics_platform": {
+  "mu": 0.4023,
+  "sigma": 0.9304,
+  "n": 12
+ },
+ "backup_service": {
+  "mu": 0.2523,
+  "sigma": 0.6398,
+  "n": 6
+ },
+ "export_service": {
+  "mu": 0.2141,
+  "sigma": 0.7261,
+  "n": 2
+ },
+ "identity_service": {
+  "mu": 0.1731,
+  "sigma": 0.8447,
+  "n": 2
+ },
+ "integration_service": {
+  "mu": 0.5454,
+  "sigma": 0.7955,
+  "n": 9
+ },
+ "search_service": {
+  "mu": 0.811,
+  "sigma": 0.4929,
+  "n": 11
+ },
+ "support_platform": {
+  "mu": 0.4429,
+  "sigma": 0.7639,
+  "n": 10
+ }
+}

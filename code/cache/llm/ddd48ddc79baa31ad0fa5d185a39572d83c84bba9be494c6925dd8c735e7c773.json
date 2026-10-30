@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "purpose": "vision:deleted_account_reference_20260310.png",
+ "content": "{\n  \"screen\": \"Customer Reference Registry\",\n  \"as_of\": \"10 Mar 2026 07:18 UTC\",\n  \"subject\": {\n    \"user_id\": \"user_17\",\n    \"name\": null,\n    \"email\": null,\n    \"phone\": null\n  },\n  \"records\": [\n    {\n      \"resource_id\": \"user_17\",\n      \"system\": \"Account Platform\",\n      \"user_id\": \"user_17\",\n      \"name\": null,\n      \"email\": null,\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Retained reference\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Customer key record. Created 11 Jan 2024 08:42 UTC. Owner team: Account Platform. Region: eu-west.\"\n    },\n    {\n      \"resource_id\": \"ORD-20263245\",\n      \"system\": \"Orders\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": null,\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Active\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Linked to customer. Created 11 Jan 2024 08:45.\"\n    },\n    {\n      \"resource_id\": \"CS-3245\",\n      \"system\": \"Support\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": null,\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Active\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Linked to customer. Created 14 Feb 2024 12:16.\"\n    },\n    {\n      \"resource_id\": \"CS-3378\",\n      \"system\": \"Support\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": null,\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Active\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Linked to customer. Created 03 Jun 2024 09:27.\"\n    },\n    {\n      \"resource_id\": \"FIN-7742\",\n      \"system\": \"Finance\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": null,\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Active\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Linked to customer. Created 22 Aug 2024 15:03.\"\n    }\n  ]\n}",
+ "usage": {
+  "queue_time": 0.195659306,
+  "prompt_tokens": 2200,
+  "prompt_time": 0.151815379,
+  "completion_tokens": 733,
+  "completion_time": 1.449148496,
+  "total_tokens": 2933,
+  "total_time": 1.6009638750000001
+ }
+}

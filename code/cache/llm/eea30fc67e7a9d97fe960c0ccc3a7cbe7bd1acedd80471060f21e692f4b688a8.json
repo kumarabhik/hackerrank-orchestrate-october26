@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "purpose": "vision:account_admin_console_20260926.png",
+ "content": "{\n  \"screen\": \"Northstar Shop / Customer Operations / Customers\",\n  \"as_of\": \"24 Sep 2026 09:14 JST\",\n  \"subject\": {\n    \"user_id\": \"user_11\",\n    \"name\": \"Haruka Sato\",\n    \"email\": \"haruka.s1838@zoho.com\",\n    \"phone\": \"+81 90 7610 2507\"\n  },\n  \"records\": [\n    {\n      \"resource_id\": \"account_5762\",\n      \"system\": null,\n      \"user_id\": \"user_11\",\n      \"name\": \"Haruka Sato\",\n      \"email\": \"haruka.s1838@zoho.com\",\n      \"phone\": \"+81 90 7610 2507\",\n      \"email_hash\": null,\n      \"status\": \"Silver\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": true,\n      \"detail\": \"Primary customer account record. Member since 12 Jan 2024. Preferred language: Japanese. Market: JP. Signup channel: mobile_app.\"\n    },\n    {\n      \"resource_id\": \"ORD-20265762\",\n      \"system\": null,\n      \"user_id\": \"user_11\",\n      \"name\": \"Haruka Sato\",\n      \"email\": \"haruka.s1838@zoho.com\",\n      \"phone\": \"+81 90 7610 2507\",\n      \"email_hash\": null,\n      \"status\": \"Delivered\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": true,\n      \"detail\": \"Order for Ceramic coffee set (Qty 1, JPY 8,900). Placed 12 Sep 2026. Delivered 18 Sep.\"\n    },\n    {\n      \"resource_id\": \"ORD-20265518\",\n      \"system\": null,\n      \"user_id\": \"user_11\",\n      \"name\": \"Haruka Sato\",\n      \"email\": \"haruka.s1838@zoho.com\",\n      \"phone\": \"+81 90 7610 2507\",\n      \"email_hash\": null,\n      \"status\": \"Returned\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": true,\n      \"detail\": \"Order for Travel backpack (Qty 1, JPY 12,400). Placed 28 Aug 2026. Returned 03 Sep.\"\n    },\n    {\n      \"resource_id\": \"support_9538\",\n      \"system\": null,\n      \"user_id\": \"user_11\",\n      \"name\": \"Haruka Sato\",\n      \"email\": \"haruka.s1838@zoho.com\",\n      \"phone\": \"+81 90 7610 2507\",\n      \"email_hash\": null,\n      \"status\": \"Active\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": true,\n      \"detail\": \"Support ticket CS-8538. Created 28 Aug. Customer replied 24 Sep. Support agent responded 22 Sep.\"\n    }\n  ]\n}",
+ "usage": {
+  "queue_time": 0.175251809,
+  "prompt_tokens": 2200,
+  "prompt_time": 0.151587968,
+  "completion_tokens": 820,
+  "completion_time": 1.656188145,
+  "total_tokens": 3020,
+  "total_time": 1.807776113
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "purpose": "vision:security_audit_explorer_20260905.png",
+ "content": "{\"screen\": \"Sentinel / Account events\", \"as_of\": \"2026-08-26T04:03:00Z\", \"subject\": {\"user_id\": \"user_03\", \"name\": null, \"email\": null, \"phone\": null}, \"records\": [{\"resource_id\": \"audit_record_003\", \"system\": null, \"user_id\": \"user_03\", \"name\": null, \"email\": null, \"phone\": null, \"email_hash\": null, \"status\": \"Valid\", \"enabled\": null, \"restore_allowed\": null, \"contains_personal_data\": null, \"detail\": \"Account closure recorded; event_type: account_closure_recorded; actor: automated account workflow; recorded_at: 2026-08-25T04:03:00Z; fingerprint: 8f0c...31ad; signature: Valid; journal: 2026-Q3\"}, {\"resource_id\": \"audit_record_002\", \"system\": null, \"user_id\": \"user_03\", \"name\": null, \"email\": null, \"phone\": null, \"email_hash\": null, \"status\": \"Valid\", \"enabled\": null, \"restore_allowed\": null, \"contains_personal_data\": null, \"detail\": \"Session revoked; Category: Session management; Actor: Security system\"}, {\"resource_id\": \"audit_record_001\", \"system\": null, \"user_id\": \"user_03\", \"name\": null, \"email\": null, \"phone\": null, \"email_hash\": null, \"status\": \"Valid\", \"enabled\": null, \"restore_allowed\": null, \"contains_personal_data\": null, \"detail\": \"Recovery challenge completed; Category: Authentication; Actor: User (self)\"}, {\"resource_id\": \"audit_record_006\", \"system\": null, \"user_id\": \"user_03\", \"name\": null, \"email\": null, \"phone\": null, \"email_hash\": null, \"status\": \"Valid\", \"enabled\": null, \"restore_allowed\": null, \"contains_personal_data\": null, \"detail\": \"Email change confirmed; Category: Profile update; Actor: User (self)\"}, {\"resource_id\": \"audit_record_005\", \"system\": null, \"user_id\": \"user_03\", \"name\": null, \"email\": null, \"phone\": null, \"email_hash\": null, \"status\": \"Valid\", \"enabled\": null, \"restore_allowed\": null, \"contains_personal_data\": null, \"detail\": \"Login from new device; Category: Authentication; Actor: User (self)\"}, {\"resource_id\": \"audit_record_004\", \"system\": null, \"user_id\": \"user_03\", \"name\": null, \"email\": null, \"phone\": null, \"email_hash\": null, \"status\": \"Valid\", \"enabled\": null, \"restore_allowed\": null, \"contains_personal_data\": null, \"detail\": \"Password changed; Category: Authentication; Actor: User (self)\"}]}",
+ "usage": {
+  "queue_time": 0.166885508,
+  "prompt_tokens": 2200,
+  "prompt_time": 0.154530098,
+  "completion_tokens": 674,
+  "completion_time": 1.289719996,
+  "total_tokens": 2874,
+  "total_time": 1.444250094
+ }
+}

@@ -420,3 +420,88 @@ Before responding to any user message, confirm:
 - [ ] I will not log secrets or real personal data.
 - [ ] I will use only participant-facing files for predictions.
 - [ ] I will preserve the Ghost Data Still Exists deletion-audit and output contract in §6.
+
+---
+
+## 10. Project Working Rules — EXORCIST (participant-added)
+
+These rules extend §0–§9 for this team's solution. They never override §2–§5 (logging) or §6 (contract). If they ever conflict, §0–§9 win.
+
+### 10.1 Context bootstrap — MANDATORY
+
+Do this **at the start of every new chat**, **after any context compaction/summary**, and **whenever you are unsure what the project is or what state it is in**:
+
+1. Read this `AGENTS.md` fully (including this §10).
+2. Read `roadmap.md` — find the **Current focus** line and the box states.
+3. Read `system.md` — latest results table row and the last ~10 entries (errors already solved, decisions already made, open questions).
+4. Read `design_doc.md` — at minimum §3 (grading contract), §6 (components) and §14 (open questions); the whole file if you will change architecture.
+5. If `graphify-out/graph.json` exists, use `graphify query "<question>"` for "where/how is X" questions before grepping blindly.
+6. Only then act. Never re-derive or re-litigate something already recorded as a DECISION in system.md unless new evidence contradicts it — and if so, record a new DECISION entry explaining why.
+
+`question.md` (repo root) is private interview prep — read it only when asked about the interview, and keep its answers in sync with decisions (see 10.4).
+
+### 10.2 Source-of-truth map
+
+| Need | File |
+|---|---|
+| Challenge contract | `problem_statement.md`, §6 of this file |
+| Our working rules | §10 of this file |
+| Architecture & rationale | `design_doc.md` |
+| What is done / next | `roadmap.md` |
+| Results, errors, fixes, decisions | `system.md` |
+| Interview prep (private, gitignored) | `question.md` |
+| Turn-by-turn transcript | `log.txt` (§2–§5) |
+
+### 10.3 Roadmap discipline
+
+- Flip a box to `[~]` when you start a task and `[x]` only when it is **verified** (test passes, eval number recorded, or file exists and is correct).
+- Keep the **Current focus** line accurate at the end of every turn that changes progress.
+- Never delete tasks; strike through dropped ones with a reason.
+
+### 10.4 System journal discipline (`system.md`)
+
+Append an entry (append-only, UTC timestamp, format at top of file) whenever any of these happens:
+- **RESULT** — every evaluation run (also add a row to the Results table), timing/cost measurement, final run.
+- **ERROR** — any bug, crash, wrong output, failed assumption, or tool/env problem that took more than a trivial fix. Always include *root cause* and *fix*.
+- **DECISION** — any architectural or policy-interpretation choice, with the reason and alternatives rejected.
+- **DISCOVERY** — a new fact about the data or grading contract.
+- **OPEN-QUESTION** — an unresolved ambiguity; close it later with a referencing entry.
+
+When a DECISION or RESULT changes an answer in `question.md`, update that answer in the same turn.
+
+### 10.5 Correctness rules (protect the score)
+
+1. **No hardcoding.** Never key logic on `case_id`, specific emails, specific resource IDs, or sample answers. Rules, category maps and lexicons are data.
+2. **Participant data only.** Use only files under `dataset/`. Never read organizer-only files.
+3. **Time cutoff.** A case may only use facts with time ≤ its `audit_at`. Never cite evidence captured after `audit_at`.
+4. **Claims ≠ proof.** `reported_status` and `reported_result` never establish state on their own.
+5. **Retain means retain.** RETAIN categories must never produce `DELETE_RECORD`.
+6. **Canonical order** is (phase, operation rank from the contract table, `system_id`, `resource_id`); there is exactly one sort function — reuse it.
+7. **Determinism.** Fixed sort keys, fixed JSON serialization, temperature 0, content-hash caches. Two consecutive runs must produce byte-identical `output.csv`.
+8. **Regression gate.** Before calling a change an improvement, run `python code/evaluation/main.py`. The sample score must not drop; if it does, fix or revert, and log an ERROR entry.
+9. **Invariant gate.** Before any submission artifact is produced, the invariant checker must pass on all 518 rows.
+
+### 10.6 Engineering rules
+
+- **Official content is read-only:** never modify §0–§9 of this file, `CLAUDE.md`, `problem_statement.md`, `agent_trace_instructions.md`, or anything in `dataset/`. Only §10 of this file is ours to edit. (`README.md` is the exception: the submission requires our setup/run instructions in it, written at packaging time.)
+
+- Python 3.11, standard library first; any third-party dependency goes in `code/requirements.txt` with a pinned version and a one-line reason in system.md.
+- All file I/O uses `encoding="utf-8"`; CSV I/O also uses `newline=""`. Paths are built with `pathlib` relative to the repo root (Windows + POSIX).
+- Small, single-purpose modules under `code/exorcist/`; each new behavior gets a unit test under `code/tests/`.
+- LLM calls only via `code/exorcist/llm.py` (cached, usage-logged, provider from env). Keys only from environment variables / uncommitted `.env`. Never print or log keys.
+- Don't spawn sub-agents unless the user asks; if one is used it logs to the same `log.txt` (§5.3).
+- Prefer measuring over guessing: when unsure how data behaves, write a 10-line probe script in the scratchpad, run it, and record the finding in system.md.
+
+### 10.7 Knowledge graph (graphify)
+
+- The project knowledge graph lives in `graphify-out/` (graph.json, GRAPH_REPORT.md, graph.html), built over `code/` (docs + source) and the challenge docs.
+- After significant changes to docs or code (new module, design change, milestone completion), refresh it: `graphify update code` for code-only changes, or re-run `/graphify` for doc changes.
+- Use `graphify query`, `graphify path "A" "B"`, `graphify explain "X"` to answer structural questions quickly.
+
+### 10.8 Definition of done (per task)
+
+A task is done only when: code + unit test exist, the eval was re-run (if scoring-relevant), `roadmap.md` box is `[x]`, a `system.md` entry records the result, `question.md` is updated if an interview answer changed, and the turn is logged in `log.txt`.
+
+### 10.9 Submission checklist (mirror of README)
+
+`output.csv` at repo root (exact header, 518 rows, sorted) · `code.zip` = `README.md` + `code/` (with `code/evaluation/evaluation_report.md`, `code/evaluation/usage_report.md`) + `design_doc.md`, `roadmap.md`, `system.md` added explicitly to the archive command, no `dataset/`, venvs, caches, nested archives, or secrets · `log.txt` valid · agent trace zip · `question.md` NOT included.

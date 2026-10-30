@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "purpose": "vision:customer_export_console_20260618.png",
+ "content": "{\n  \"screen\": \"Customer Download Center / Data exports\",\n  \"as_of\": \"20 Jun 14:18 UTC\",\n  \"subject\": {\n    \"user_id\": null,\n    \"name\": null,\n    \"email\": null,\n    \"phone\": null\n  },\n  \"records\": [\n    {\n      \"resource_id\": \"export_1261\",\n      \"system\": null,\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"marcus.lee@northstar.shop\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Collecting\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"customer_export_1261.zip\"\n    },\n    {\n      \"resource_id\": \"export_1260\",\n      \"system\": null,\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"ingrid.dahl@outlook.com\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Ready\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"customer_export_1260.zip\"\n    },\n    {\n      \"resource_id\": \"export_1259\",\n      \"system\": null,\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"sara.kim@northstar.shop\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Packaging\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"customer_export_1259.zip\"\n    },\n    {\n      \"resource_id\": \"export_1258\",\n      \"system\": null,\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"daniel.park@northstar.shop\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Ready\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"customer_export_1258.zip\"\n    }\n  ]\n}",
+ "usage": {
+  "queue_time": 0.184897792,
+  "prompt_tokens": 2200,
+  "prompt_time": 0.156564023,
+  "completion_tokens": 564,
+  "completion_time": 1.089013051,
+  "total_tokens": 2764,
+  "total_time": 1.245577074
+ }
+}

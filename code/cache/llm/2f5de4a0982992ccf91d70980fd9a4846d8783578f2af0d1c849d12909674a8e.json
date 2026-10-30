@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "purpose": "vision:backup_restore_console_20260429.png",
+ "content": "{\n  \"screen\": \"Vault Recovery Manager - Customer-platform archives\",\n  \"as_of\": \"26 Apr 2026\",\n  \"subject\": {\n    \"user_id\": null,\n    \"name\": null,\n    \"email\": \"areed1433@gmail.com\",\n    \"phone\": null\n  },\n  \"records\": [\n    {\n      \"resource_id\": \"backup_9291\",\n      \"system\": \"Vault Recovery Manager\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"bluepeako@outlook.com\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Archive\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Region: ap-southeast-1, Created: 26 Apr 02:00, Size: 102.3 GB, Encryption: AES-256\"\n    },\n    {\n      \"resource_id\": \"backup_9288\",\n      \"system\": \"Vault Recovery Manager\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"miller.logistics@company.co\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Archive\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Region: us-west-2, Created: 26 Apr 02:00, Size: 67.1 GB, Encryption: AES-256\"\n    },\n    {\n      \"resource_id\": \"backup_9287\",\n      \"system\": \"Vault Recovery Manager\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"areed1433@gmail.com\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Archive\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Region: eu-west-1, Created: 26 Apr 02:00, Size: 84.7 GB, Encryption: AES-256, Checksum: Verified, Last drill: 29 Mar 2026, Retention end: 26 Jul 2026\"\n    },\n    {\n      \"resource_id\": \"backup_9286\",\n      \"system\": \"Vault Recovery Manager\",\n      \"user_id\": null,\n      \"name\": null,\n      \"email\": \"summit-retail@company.co\",\n      \"phone\": null,\n      \"email_hash\": null,\n      \"status\": \"Archive\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"contains_personal_data\": null,\n      \"detail\": \"Region: us-east-1, Created: 26 Apr 02:00, Size: 91.4 GB, Encryption: AES-256\"\n    }\n  ]\n}",
+ "usage": {
+  "queue_time": 0.193569429,
+  "prompt_tokens": 2200,
+  "prompt_time": 0.151557496,
+  "completion_tokens": 725,
+  "completion_time": 1.3882119,
+  "total_tokens": 2925,
+  "total_time": 1.539769396
+ }
+}

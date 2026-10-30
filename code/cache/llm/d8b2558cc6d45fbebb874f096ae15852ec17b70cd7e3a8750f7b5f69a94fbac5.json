@@ -1,0 +1,17 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "purpose": "intent",
+ "content": "{\"authorizes_deletion\":true,\"intent\":\"deletion\",\"language\":\"de\"}",
+ "usage": {
+  "queue_time": 0.398354734,
+  "prompt_tokens": 298,
+  "prompt_time": 0.01589903,
+  "completion_tokens": 102,
+  "completion_time": 0.104962547,
+  "total_tokens": 400,
+  "total_time": 0.120861577,
+  "completion_tokens_details": {
+   "reasoning_tokens": 76
+  }
+ }
+}
